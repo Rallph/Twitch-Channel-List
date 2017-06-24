@@ -1,0 +1,96 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+body {
+    background-color: #7a08fa;
+    font-family: Nunito, sans-serif;
+    color: #f8ecfd;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.buttons   {
+    margin: auto;
+}
+
+.button {
+    text-align: center;
+    background-color: #a82ffc;
+    color: #f8ecfd;
+    padding: 5px;
+    
+    cursor: pointer;
+}
+
+.selected {
+
+    background-color: #f8ecfd;
+    color: #a82ffc;
+}
+
+.list {
+    margin-top: 25px;
+}
+
+.item {
+
+    border-radius: 3px;
+    padding: 3px;
+    background-color: #f8ecfd;
+    color: #a82ffc;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.item h3 {
+    margin-top: 0;
+    padding: 0;
+}
+
+.small-img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.error {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.entry {
+
+    margin: 5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  text-align: center;
+  background-color: #a82ffc;
+  
+}
+
+.footer p {
+    
+    margin-top: 10px;
+}
+
+.footer a {
+
+    color: #c264fe;
+}
